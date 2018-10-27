@@ -1,0 +1,261 @@
+{:	data{o:Nanoc::Identifier:
+@type:	full:@stringI"/index.html:ET{:default{
+:	lastU:Nanoc::Int::TextualContent[0I"�<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="left">
+            <h1 id="splash" class="enby">&ntriangleleft;</span>
+        </div>
+        <div id="main">
+            <div id="header">
+                <h1 id="title">Qu<span class="ee">e</span>rcus absurdum.</h1>
+                <span id="sub">the blog of <a href="../gender">mx.</a> <span id="name">sasha verona malone</span></span>
+            </div>
+            <div id="body">
+                <h2>A Brand New Nanoc Site</h2>
+
+<p>You’ve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your Nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+
+            </div>
+        </div>
+    </body>
+</html>
+;
+T:rawU;[I"2/home/sverona/proj/sverona/content/index.html;
+TI"�<h2>A Brand New Nanoc Site</h2>
+
+<p>You’ve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your Nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+;
+T:pre@:_0@:	post@o;;;;	I"/stylesheet.css;
+T{;{	;U;[I"6/home/sverona/proj/sverona/content/stylesheet.css;
+TI"�* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;
+T;@;@;@o;;;;	I"/style.css;
+T{;{	;U;[I"1/home/sverona/proj/sverona/content/style.css;
+TI"7/*
+ * base styles
+ */
+
+html {
+    background: #444;
+    color: #ddd;
+}
+
+a {
+    color: #4682b4;
+}
+
+#left, #main {
+    float: left;
+}
+
+#left {
+    max-width: 100px;
+    position: fixed;
+    top: 7px;
+    left: 10px;
+}
+
+#main {
+    max-width: 500px;
+    padding: 0 1em 0 0;
+    margin-left: 50px;
+}
+
+/*
+ * typesetting
+ */
+
+#header,
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Founders Grotesk";
+}
+
+#header {
+    color: #bbb;
+}
+
+#title {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    clear: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#title .ee {
+    position: relative;
+    font-size: 1.5rem;
+    top: -8px;
+    text-shadow: 0px 8px #000;
+}
+
+#sub {
+    display: block;
+    margin-top: -10px;
+}
+
+#body {
+    font-family: "Ehrhardt MT Std";
+    font-size: 1.375rem;
+    line-height: 2rem;
+}
+
+#body > p:first-of-type::first-letter {
+    padding-left: 0;
+    font-size: 2rem;
+}
+#body > p:first-of-type::first-line {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+}
+
+#splash {
+    text-align: right;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+/*
+ * nonbinary flag
+ */
+
+.enby {
+/* #body > p:first-of-type::first-letter { */
+    background-size: 100%;
+    background: linear-gradient(#fff433 0%,
+                                #fff433 21%,
+                                #fff 21%,
+                                #fff 42%,
+                                #9b59d0 42%,
+                                #9b59d0 63%,
+                                #000 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+;
+T;@;@;@:versioni
